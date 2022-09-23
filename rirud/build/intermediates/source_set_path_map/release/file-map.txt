@@ -1,0 +1,8 @@
+riru.rirud-pngs-0 /Users/cuijun/work/github/Riru/rirud/build/generated/res/pngs/release
+riru.rirud-resValues-1 /Users/cuijun/work/github/Riru/rirud/build/generated/res/resValues/release
+riru.rirud-rs-2 /Users/cuijun/work/github/Riru/rirud/build/generated/res/rs/release
+riru.rirud-mergeReleaseResources-3 /Users/cuijun/work/github/Riru/rirud/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+riru.rirud-mergeReleaseResources-4 /Users/cuijun/work/github/Riru/rirud/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+riru.rirud-merged_res-5 /Users/cuijun/work/github/Riru/rirud/build/intermediates/merged_res/release
+riru.rirud-main-6 /Users/cuijun/work/github/Riru/rirud/src/main/res
+riru.rirud-release-7 /Users/cuijun/work/github/Riru/rirud/src/release/res

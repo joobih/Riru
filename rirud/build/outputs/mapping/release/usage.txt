@@ -1,0 +1,85 @@
+androidx.annotation.AnimRes
+androidx.annotation.AnimatorRes
+androidx.annotation.AnyRes
+androidx.annotation.AnyThread
+androidx.annotation.ArrayRes
+androidx.annotation.AttrRes
+androidx.annotation.BinderThread
+androidx.annotation.BoolRes
+androidx.annotation.CallSuper
+androidx.annotation.CheckResult
+androidx.annotation.ChecksSdkIntAtLeast
+androidx.annotation.ColorInt
+androidx.annotation.ColorLong
+androidx.annotation.ColorRes
+androidx.annotation.ContentView
+androidx.annotation.DimenRes
+androidx.annotation.Dimension
+androidx.annotation.DoNotInline
+androidx.annotation.DrawableRes
+androidx.annotation.FloatRange
+androidx.annotation.FontRes
+androidx.annotation.FractionRes
+androidx.annotation.GuardedBy
+androidx.annotation.HalfFloat
+androidx.annotation.IdRes
+androidx.annotation.InspectableProperty$EnumEntry
+androidx.annotation.InspectableProperty$FlagEntry
+androidx.annotation.InspectableProperty$ValueType
+androidx.annotation.InspectableProperty
+androidx.annotation.IntDef
+androidx.annotation.IntRange
+androidx.annotation.IntegerRes
+androidx.annotation.InterpolatorRes
+androidx.annotation.LayoutRes
+androidx.annotation.LongDef
+androidx.annotation.MainThread
+androidx.annotation.MenuRes
+androidx.annotation.NavigationRes
+androidx.annotation.NonNull
+androidx.annotation.Nullable
+androidx.annotation.PluralsRes
+androidx.annotation.Px
+androidx.annotation.RawRes
+androidx.annotation.RequiresApi
+androidx.annotation.RequiresFeature
+androidx.annotation.RequiresPermission$Read
+androidx.annotation.RequiresPermission$Write
+androidx.annotation.RequiresPermission
+androidx.annotation.RestrictTo$Scope
+androidx.annotation.RestrictTo
+androidx.annotation.Size
+androidx.annotation.StringDef
+androidx.annotation.StringRes
+androidx.annotation.StyleRes
+androidx.annotation.StyleableRes
+androidx.annotation.TransitionRes
+androidx.annotation.UiThread
+androidx.annotation.VisibleForTesting
+androidx.annotation.WorkerThread
+androidx.annotation.XmlRes
+rikka.io.stream.le.R
+riru.Daemon:
+    private static final java.lang.String RIRU_LOADER
+    private static final java.lang.String SERVICE_FOR_TEST
+    public static final java.lang.String TAG
+riru.DaemonSocketServerThread:
+    private static final int ACTION_READ_DIR
+    private static final int ACTION_READ_FILE
+    private static final int ACTION_READ_MYFUCK_TMPFS_PATH
+    private static final int ACTION_READ_MODULES
+    private static final int ACTION_READ_NATIVE_BRIDGE
+    private static final int ACTION_WRITE_STATUS
+riru.DaemonUtils:
+    private static final java.lang.String LIB_PREFIX
+    private static final java.lang.String RIRU_PREFIX
+    private static final java.lang.String SO_SUFFIX
+    public void <init>()
+riru.rirud.BuildConfig
+riru.rirud.R$string
+riru.rirud.R
+riru.Daemon$$IA$1
+riru.Daemon$$IA$2
+riru.Daemon$$IA$3
+riru.Daemon$$InternalSyntheticLambda$0$dc7d441f6e9204200ed2f075f51844a6ff45b84af5cbbd5ad8106d3007c9bbbf$0
+riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$1

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "riru.rirud-mergeReleaseResources-3:/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/Users/cuijun/work/github/Riru/rirud/src/main/res/values-zh-rCN/strings.xml",
+                    "from": {
+                        "startLines": "2,9,11,6,5,10,4,8,7,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,611,827,377,267,791,185,533,465,124",
+                        "endColumns": "68,179,198,87,109,35,81,77,67,60",
+                        "endOffsets": "119,786,1021,460,372,822,262,606,528,180"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,304,503,591,701,737,819,897,965",
+                        "endColumns": "68,179,198,87,109,35,81,77,67,60",
+                        "endOffsets": "119,299,498,586,696,732,814,892,960,1021"
+                    }
+                }
+            ]
+        }
+    ]
+}

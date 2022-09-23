@@ -1,0 +1,39 @@
+# The proguard configuration file for the following section is /Users/cuijun/work/github/Riru/rirud/proguard-rules.pro
+-keep class riru.Daemon {
+    public static void main(java.lang.String[]);
+}
+-keep class riru.Installer {
+    public static void main(java.lang.String[]);
+}
+
+# End of content from /Users/cuijun/work/github/Riru/rirud/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/cuijun/work/github/Riru/rirud/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+
+# End of content from /Users/cuijun/work/github/Riru/rirud/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/cuijun/.gradle/caches/transforms-3/66e5788a2acb3524864b55920bf537fd/transformed/little-endian-data-stream-1.0.2/proguard.txt
+
+# End of content from /Users/cuijun/.gradle/caches/transforms-3/66e5788a2acb3524864b55920bf537fd/transformed/little-endian-data-stream-1.0.2/proguard.txt
+# The proguard configuration file for the following section is /Users/cuijun/.gradle/caches/transforms-3/fab63418ff468fe9875e9cf485ee4f0b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+-keepclassmembers,allowobfuscation class * {
+  @androidx.annotation.DoNotInline <methods>;
+}
+
+# End of content from /Users/cuijun/.gradle/caches/transforms-3/fab63418ff468fe9875e9cf485ee4f0b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

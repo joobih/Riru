@@ -1,0 +1,33 @@
+Marking string:zygote_dead:2130771977 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:empty:2130771973 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:bad_file_context_loaded:2130771970 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:loaded:2130771975 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:bad_file_context:2130771969 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:files_not_mounted:2130771974 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:bad_selinux_rule:2130771972 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:bad_prop:2130771971 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:not_loaded:2130771976 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+Marking string:app_process:2130771968 reachable: referenced from /Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+@string/app_process : reachable=true
+@string/bad_file_context : reachable=true
+@string/bad_file_context_loaded : reachable=true
+@string/bad_prop : reachable=true
+@string/bad_selinux_rule : reachable=true
+@string/empty : reachable=true
+@string/files_not_mounted : reachable=true
+@string/loaded : reachable=true
+@string/not_loaded : reachable=true
+@string/zygote_dead : reachable=true
+
+The root reachable resources are:
+ string:app_process:2130771968
+ string:bad_file_context:2130771969
+ string:bad_file_context_loaded:2130771970
+ string:bad_prop:2130771971
+ string:bad_selinux_rule:2130771972
+ string:empty:2130771973
+ string:files_not_mounted:2130771974
+ string:loaded:2130771975
+ string:not_loaded:2130771976
+ string:zygote_dead:2130771977
+Resource shrinking did not work (grew from 2391 to 2431); using original instead

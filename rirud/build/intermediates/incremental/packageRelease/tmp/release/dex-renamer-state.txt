@@ -1,0 +1,4 @@
+#Tue Sep 20 11:48:18 CST 2022
+base.0=/Users/cuijun/work/github/Riru/rirud/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

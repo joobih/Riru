@@ -1,0 +1,187 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# min_api: 23
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: 7215b68
+# pg_map_hash: SHA-256 7215b68f189b7d63be813f0dffd7ba70d1c2acf466aa71d26fe3132908ef72ea
+androidx.annotation.Keep -> a.a:
+c.Daemon$$ExternalSyntheticLambda0 -> c.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    riru.Daemon riru.Daemon$$InternalSyntheticLambda$0$a928f60c0a4d452a360ec2acc978e73d402bbac73aeda953c16c3842144124e1$0.f$0 -> b
+    int riru.Daemon$$InternalSyntheticLambda$0$a928f60c0a4d452a360ec2acc978e73d402bbac73aeda953c16c3842144124e1$0.$r8$classId -> a
+    0:65535:void riru.Daemon$$InternalSyntheticLambda$0$a928f60c0a4d452a360ec2acc978e73d402bbac73aeda953c16c3842144124e1$0.<init>(riru.Daemon):0:0 -> <init>
+    0:65535:void riru.Daemon$$InternalSyntheticLambda$0$a928f60c0a4d452a360ec2acc978e73d402bbac73aeda953c16c3842144124e1$0.$r8$init$synthetic(riru.Daemon):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void riru.Daemon$$InternalSyntheticLambda$0$a928f60c0a4d452a360ec2acc978e73d402bbac73aeda953c16c3842144124e1$0.run$bridge() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+c.Daemon$$ExternalSyntheticLambda1 -> c.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    riru.Daemon$$InternalSyntheticLambda$3$ec6017ca88c975e7864214f69321ac7bd0b7e8bed5950cf44adea0a6f6917694$0 riru.Daemon$$InternalSyntheticLambda$3$ec6017ca88c975e7864214f69321ac7bd0b7e8bed5950cf44adea0a6f6917694$0.INSTANCE -> a
+    void riru.Daemon$$InternalSyntheticLambda$3$ec6017ca88c975e7864214f69321ac7bd0b7e8bed5950cf44adea0a6f6917694$0.<clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void riru.Daemon$$InternalSyntheticLambda$3$ec6017ca88c975e7864214f69321ac7bd0b7e8bed5950cf44adea0a6f6917694$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:void riru.Daemon.lambda$onRiruNotLoaded$2():0:0 -> run
+    0:65535:void riru.Daemon$$InternalSyntheticLambda$3$ec6017ca88c975e7864214f69321ac7bd0b7e8bed5950cf44adea0a6f6917694$0.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+c.DaemonSocketServerThread$$ExternalSyntheticLambda0 -> c.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    riru.DaemonSocketServerThread riru.DaemonSocketServerThread$$InternalSyntheticLambda$1$3eae8ec2e99050142841070ef6cbf25325bedb726064d2f2c13c5e82ba5023aa$0.f$0 -> a
+    android.net.LocalSocket riru.DaemonSocketServerThread$$InternalSyntheticLambda$1$3eae8ec2e99050142841070ef6cbf25325bedb726064d2f2c13c5e82ba5023aa$0.f$1 -> b
+    int riru.DaemonSocketServerThread$$InternalSyntheticLambda$1$3eae8ec2e99050142841070ef6cbf25325bedb726064d2f2c13c5e82ba5023aa$0.f$2 -> c
+    void riru.DaemonSocketServerThread$$InternalSyntheticLambda$1$3eae8ec2e99050142841070ef6cbf25325bedb726064d2f2c13c5e82ba5023aa$0.<init>(riru.DaemonSocketServerThread,android.net.LocalSocket,int) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void riru.DaemonSocketServerThread$$InternalSyntheticLambda$1$3eae8ec2e99050142841070ef6cbf25325bedb726064d2f2c13c5e82ba5023aa$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+c.DaemonUtils$$ExternalSyntheticLambda0 -> c.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    riru.DaemonUtils$$InternalSyntheticLambda$3$292f087e327bc5dc437a3bf39fc59e9c4fb2b984eccd79596e63b450186bba99$0 riru.DaemonUtils$$InternalSyntheticLambda$3$292f087e327bc5dc437a3bf39fc59e9c4fb2b984eccd79596e63b450186bba99$0.INSTANCE -> a
+    void riru.DaemonUtils$$InternalSyntheticLambda$3$292f087e327bc5dc437a3bf39fc59e9c4fb2b984eccd79596e63b450186bba99$0.<clinit>() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void riru.DaemonUtils$$InternalSyntheticLambda$3$292f087e327bc5dc437a3bf39fc59e9c4fb2b984eccd79596e63b450186bba99$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:boolean riru.DaemonUtils.lambda$isLoaded$2(java.io.File,java.lang.String):0:0 -> accept
+    0:65535:boolean riru.DaemonUtils$$InternalSyntheticLambda$3$292f087e327bc5dc437a3bf39fc59e9c4fb2b984eccd79596e63b450186bba99$0.accept(java.io.File,java.lang.String):0 -> accept
+      # {"id":"com.android.tools.r8.synthesized"}
+c.DaemonUtils$$ExternalSyntheticLambda1 -> c.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0 riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.INSTANCE -> b
+    riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$1 riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$1.INSTANCE -> c
+    int riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.$r8$classId -> a
+    void riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.$r8$clinit$synthetic() -> <clinit>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:void riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.<init>():0:0 -> <init>
+    0:65535:void riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.$r8$init$synthetic():0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object riru.DaemonUtils$$InternalSyntheticLambda$0$a6a69b1fcb63d7fd9e0672605c98d629d8a546db08b9c488697e2daadea10bf5$0.call$bridge() -> call
+      # {"id":"com.android.tools.r8.synthesized"}
+rikka.io.LittleEndianDataInputStream -> b.a:
+    byte[] buffer -> b
+    java.io.InputStream in -> a
+rikka.io.LittleEndianDataOutputStream -> b.b:
+    java.io.OutputStream out -> a
+    byte[] buffer -> b
+riru.Daemon -> riru.Daemon:
+    android.os.IBinder systemServerBinder -> c
+    android.os.Handler handler -> a
+    int $r8$clinit -> e
+    boolean allowRestart -> b
+    riru.DaemonSocketServerThread serverThread -> d
+    0:65535:void lambda$binderDied$1():0:0 -> a
+    0:65535:void $r8$lambda$J3OwmmhJxKWEC1iTkgKgj684lN8(riru.Daemon):0 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:void lambda$new$0():0:0 -> b
+    0:65535:void $r8$lambda$JdhxQvUWQXwyB4Ukfp71w2Qru3E(riru.Daemon):0 -> b
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+      # {"id":"com.android.tools.r8.synthesized"}
+    void onRiruLoad() -> c
+    void onRiruNotLoaded(boolean) -> d
+    void startWait(boolean) -> e
+riru.DaemonSocketServerThread -> c.d:
+    java.util.concurrent.CountDownLatch countDownLatch -> b
+    java.util.Set zygotePid -> c
+    java.util.HashSet privateActions -> d
+    android.net.LocalServerSocket serverSocket -> a
+    java.util.concurrent.Executor EXECUTOR -> e
+    0:65535:void riru.DaemonSocketServerThread.lambda$startServer$0(android.net.LocalSocket,int):0:0 -> a
+    0:65535:void $r8$lambda$xcVG87LbNuBP69RBGtaAVmvLyow(riru.DaemonSocketServerThread,android.net.LocalSocket,int):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void riru.DaemonSocketServerThread.handleReadModules(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    1:1:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    2:2:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    3:3:void riru.DaemonSocketServerThread.handleMyfuckTmpfsPath(rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    3:3:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    4:4:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    5:5:void riru.DaemonSocketServerThread.handleReadDir(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    5:5:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    6:6:void rikka.io.LittleEndianDataInputStream.readFully(byte[]):0:0 -> b
+    6:6:void riru.DaemonSocketServerThread.handleReadDir(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0 -> b
+    6:6:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    7:7:void riru.DaemonSocketServerThread.handleReadDir(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    7:7:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    8:8:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    9:9:void riru.DaemonSocketServerThread.handleReadFile(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    9:9:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    10:10:void rikka.io.LittleEndianDataInputStream.readFully(byte[]):0:0 -> b
+    10:10:void riru.DaemonSocketServerThread.handleReadFile(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0 -> b
+    10:10:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    11:11:void riru.DaemonSocketServerThread.handleReadFile(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    11:11:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    12:12:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    13:13:void riru.DaemonSocketServerThread.handleReadOriginalNativeBridge(rikka.io.LittleEndianDataOutputStream):0:0 -> b
+    13:13:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    14:14:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    15:15:void riru.DaemonSocketServerThread.handleWriteStatus(rikka.io.LittleEndianDataInputStream,android.net.Credentials):0:0 -> b
+    15:15:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0 -> b
+    16:16:void handleAction(rikka.io.LittleEndianDataInputStream,rikka.io.LittleEndianDataOutputStream,int,android.net.Credentials):0:0 -> b
+    void handleSocket(android.net.LocalSocket,boolean) -> c
+    void restartServer() -> d
+    void startServer() -> e
+    void stopServer() -> f
+    void writeString(rikka.io.LittleEndianDataOutputStream,java.lang.String) -> g
+    void writeToFile(java.io.File,java.lang.String,java.lang.String) -> h
+    1:1:boolean riru.DaemonUtils.setSocketCreateContext(java.lang.String):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void run():0:0 -> run
+riru.DaemonUtils -> c.g:
+    boolean isSELinuxEnforcing -> m
+    java.lang.String myfuckTmpfsPath -> f
+    android.content.res.Resources res -> g
+    boolean fileContext -> n
+    java.util.concurrent.FutureTask modules64 -> k
+    java.util.concurrent.FutureTask modules -> j
+    int lastStatusId -> h
+    int myfuckVersionCode -> e
+    java.util.Set zygotePid -> o
+    java.lang.String originalNativeBridge -> c
+    java.lang.Object[] lastStatusArgs -> i
+    java.util.Set loadedModules -> l
+    java.lang.Boolean has32Bit -> a
+    java.lang.Boolean has64Bit -> b
+    java.lang.String devRandom -> d
+    void writeStatus(int,java.lang.Object[]) -> A
+    0:65535:java.util.Map riru.DaemonUtils.lambda$static$1():0:0 -> a
+    0:65535:java.util.Map $r8$lambda$MDJGtwT2wWVGbr949N86S5e6Qg8():0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:65535:java.util.Map riru.DaemonUtils.lambda$static$0():0:0 -> b
+    0:65535:java.util.Map $r8$lambda$N0nJo_oAEHVfzwgb3ltHj9qtKb8():0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean checkAndResetContextForFile(java.io.File) -> c
+    boolean checkOrResetContextForChildren(java.io.File) -> d
+    boolean checkOrResetContextForForParent(java.io.File,java.io.File) -> e
+    void clearLoadedProcess() -> f
+    java.util.Map collectModules(boolean) -> g
+    void deleteDevFolder() -> h
+    boolean deleteDir(java.io.File) -> i
+    java.lang.String getDevRandom() -> j
+    java.util.Set getLoadedModules() -> k
+    java.lang.String getMyfuckTmpfsPath() -> l
+    int getMyfuckVersionCode() -> m
+    java.util.Map getModules(boolean) -> n
+    java.lang.String getOriginalNativeBridge() -> o
+    boolean has32Bit() -> p
+    boolean has64Bit() -> q
+    boolean hasIncorrectFileContext() -> r
+    boolean hasSELinux() -> s
+    void init(java.lang.String[]) -> t
+    boolean isLoaded() -> u
+    java.lang.String readLocale() -> v
+    void recordLoadedProcess(int) -> w
+    void reloadLocale() -> x
+    0:65535:void riru.DaemonUtils.exec(java.lang.String[]):0:0 -> y
+    0:65535:void riru.DaemonUtils.resetProperty(java.lang.String,java.lang.String):0 -> y
+    0:65535:void resetNativeBridgeProp(java.lang.String):0 -> y
+    1:1:void riru.DaemonUtils.clearServiceManagerCache():0:0 -> z
+    1:1:android.os.IBinder waitForSystemService(java.lang.String):0 -> z
+    2:2:android.os.IBinder waitForSystemService(java.lang.String):0:0 -> z
+riru.Installer -> riru.Installer:
+    1:1:void checkSELinux():0:0 -> main
+    1:1:void main(java.lang.String[]):0 -> main
+    2:2:void main(java.lang.String[]):0:0 -> main

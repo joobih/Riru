@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "riru.rirud-merged_res-5:/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/cuijun/work/github/Riru/rirud/src/main/res/values-zh-rCN/strings.xml",
+                    "from": {
+                        "startLines": "2,9,11,6,5,10,4,8,7,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,611,827,377,267,791,185,533,465,124",
+                        "endColumns": "68,179,198,87,109,35,81,77,67,60",
+                        "endOffsets": "119,786,1021,460,372,822,262,606,528,180"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,304,503,591,701,737,819,897,965",
+                        "endColumns": "68,179,198,87,109,35,81,77,67,60",
+                        "endOffsets": "119,299,498,586,696,732,814,892,960,1021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "riru.rirud-merged_res-5:/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/cuijun/work/github/Riru/rirud/src/main/res/values-zh-rTW/strings.xml",
+                    "from": {
+                        "startLines": "2,9,11,6,5,10,4,8,7,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,613,829,377,267,793,185,535,467,124",
+                        "endColumns": "68,179,198,89,109,35,81,77,67,60",
+                        "endOffsets": "119,788,1023,462,372,824,262,608,530,180"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,304,503,593,703,739,821,899,967",
+                        "endColumns": "68,179,198,89,109,35,81,77,67,60",
+                        "endOffsets": "119,299,498,588,698,734,816,894,962,1023"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "riru.rirud-merged_res-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/cuijun/work/github/Riru/rirud/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,9,10,6,5,11,4,8,7,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,912,1205,532,330,1513,215,811,713,129",
+                        "endColumns": "73,292,307,180,201,38,114,100,97,85",
+                        "endOffsets": "124,1200,1508,708,527,1547,325,907,806,210"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,422,730,911,1113,1152,1267,1368,1466",
+                        "endColumns": "73,292,307,180,201,38,114,100,97,85",
+                        "endOffsets": "124,417,725,906,1108,1147,1262,1363,1461,1547"
+                    }
+                }
+            ]
+        }
+    ]
+}

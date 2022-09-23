@@ -1,0 +1,43 @@
+apply plugin: 'idea'
+
+idea.module {
+    excludeDirs += file('out')
+    excludeDirs += file('aar')
+    resourceDirs += file('template')
+    resourceDirs += file('scripts')
+    resourceDirs += file('docs')
+}
+
+buildscript {
+    ext.kotlin_version = '1.4.30'
+    ext.kotlin_coroutines_version = '1.4.2'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+//        maven { url 'https://dl.bintray.com/rikkaw/Libraries' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    minSdkVersion = 23
+    targetSdkVersion = 30
+
+    riruApiVersion = 10
+    riruMinApiVersion = 9
+}

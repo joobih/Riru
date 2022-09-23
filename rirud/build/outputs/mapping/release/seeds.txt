@@ -1,0 +1,5 @@
+riru.Installer
+androidx.annotation.Keep
+riru.Daemon
+riru.Installer: void main(java.lang.String[])
+riru.Daemon: void main(java.lang.String[])

@@ -1,0 +1,68 @@
+# Riru
+
+Riru only does one thing, inject into zygote in order to allow modules to run their codes in apps or the system server.
+
+> The name, Riru, comes from a character. (https://www.pixiv.net/member_illust.php?mode=medium&illust_id=74128856)
+
+## Requirements
+
+Android 6.0+ devices rooted with [Myfuck](https://github.com/topjohnwu/Myfuck)
+
+## Guide
+
+### Install
+
+* From Myfuck Manager
+
+  1. Search "Riru" in Myfuck Manager
+  2. Install the module named "Riru"
+
+  > The Myfuck version requirement is enforced by Myfuck Manager. At the time of the release of Myfuck v21.1, the requirement is v20.4.
+
+* Manually
+
+  1. Download the zip from the [GitHub release](https://github.com/RikkaApps/Riru/releases)
+  2. Install in Myfuck Manager (Modules - Install from storage - Select downloaded zip)
+
+* "Riru" app (show Riru status)
+
+  [Download](https://github.com/RikkaApps/Riru/releases/download/v23.6/riru-v23.6.r279.f990471.apk)
+
+**If you are using other modules that change `ro.dalvik.vm.native.bridge`, Riru will not work.** (Riru will automatically set it back)
+
+A typical example is, some "optimize" modules change this property. Since changing this property is meaningless for "optimization", their quality is very questionable. In fact, changing properties for optimization is a joke.
+
+### Config
+
+* When the file `/data/adb/riru/disable` exists, Riru will do nothing
+* When the file `/data/adb/riru/enable_hide` exists, the hidden mechanism will be enabled (also requires the support of the modules)
+
+## How Riru works?
+
+* How to inject into the zygote process?
+
+  Before v22.0, we use the method of replacing a system library (libmemtrack) that will be loaded by zygote. However, it seems to cause some weird problems. Maybe because libmemtrack is used by something else.
+
+  Then we found a super easy way, the "native bridge" (`ro.dalvik.vm.native.bridge`). The specific "so" file will be automatically "dlopen-ed" and "dlclose-ed" by the system. This way is from [here](https://github.com/canyie/NbInjection).
+
+* How to know if we are in an app process or a system server process?
+
+  Some JNI functions (`com.android.internal.os.Zygote#nativeForkAndSpecialize` & `com.android.internal.os.Zygote#nativeForkSystemServer`) is to fork the app process or the system server process.
+  So we need to replace these functions with ours. This part is simple, hook `jniRegisterNativeMethods` since all Java native methods in `libandroid_runtime.so` is registered through this function.
+  Then we can call the original `jniRegisterNativeMethods` again to replace them.
+  
+## How does Hide works?
+
+From v22.0, Riru provides a hidden mechanism (idea from [Haruue Icymoon](https://github.com/haruue)), make the memory of Riru and module to anonymous memory to hide from "`/proc/maps` string scanning".
+
+## Build
+
+Run gradle task `:riru:assembleRelease` task from Android Studio or the terminal, zip will be saved to `out`.
+
+## Module template
+
+https://github.com/RikkaApps/Riru-ModuleTemplate
+
+## Module API changes
+
+https://github.com/RikkaApps/Riru-ModuleTemplate/blob/master/README.md#api-changes
